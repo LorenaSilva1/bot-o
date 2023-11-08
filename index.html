@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Palavras</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
     <div class="keyboard">
+        <div class="button" onclick="addToInput('Q')">Q</div>
+        <div class="button" onclick="addToInput('W')">W</div>
+        <div class="button" onclick="addToInput('E')">E</div>
+        <div class="button" onclick="addToInput('R')">R</div>
+        <div class="button" onclick="addToInput('T')">T</div>
+        <div class="button" onclick="addToInput('Y')">Y</div>
+        <div class="button" onclick="addToInput('U')">U</div>
+        <div class="button" onclick="addToInput('I')">I</div>
+        <div class="button" onclick="addToInput('O')">O</div>
+        <div class="button" onclick="addToInput('P')">P</div>
+        <br>
         <div class="button" onclick="addToInput('A')">A</div>
-        <!-- Resto dos botões -->
+        <div class="button" onclick="addToInput('S')">S</div>
+        <div class="button" onclick="addToInput('D')">D</div>
+        <div class="button" onclick="addToInput('F')">F</div>
+        <div class="button" onclick="addToInput('G')">G</div>
+        <div class="button" onclick="addToInput('H')">H</div>
+        <div class="button" onclick="addToInput('J')">J</div>
+        <div class="button" onclick="addToInput('K')">K</div>
+        <div class="button" onclick="addToInput('L')">L</div>
+        <div class="button" onclick="addToInput('Ç')">Ç</div>
+
+        <div class="button" onclick="addToInput('Z')">Z</div>
+        <div class="button" onclick="addToInput('X')">X</div>
+        <div class="button" onclick="addToInput('C')">C</div>
+        <div class="button" onclick="addToInput('V')">V</div>
+        <div class="button" onclick="addToInput('B')">B</div>
+        <div class="button" onclick="addToInput('N')">N</div>
+        <div class="button" onclick="addToInput('M')">M</div>
     </div>
     <input id="input" type="text" placeholder="Palavra">
     <button id="save-button" onclick="saveWord()">Salvar Palavra</button>
